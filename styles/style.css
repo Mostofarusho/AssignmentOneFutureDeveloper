@@ -75,7 +75,7 @@
     /* why-web-development  */
     
     .why-web-development {
-        height: 1200px;
+        height: 1300px;
         background: rgba(13, 19, 33, 0.02);
         margin: 30px 40px;
         /* padding: 40px; */
@@ -167,4 +167,21 @@
         margin: 20px 150px;
         border-radius: 16px;
         background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    }
+    /* My Inspiration  */
+    
+    .my-inspiration {
+        background: rgba(13, 19, 33, 0.02);
+        margin: 30px 40px;
+        padding: 40px;
+        align-items: center;
+    }
+    
+    .my-inspiration-video {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        border: 1px solid rgba(13, 19, 33, 0.2);
+        border-radius: 16px;
     }
