@@ -185,3 +185,95 @@
         border: 1px solid rgba(13, 19, 33, 0.2);
         border-radius: 16px;
     }
+    /* My Current Target  */
+    
+    .my-target {
+        background: rgba(13, 19, 33, 0.02);
+        margin: 30px 40px;
+        padding: 40px;
+    }
+    
+    .my-target-boxes {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .first-box {
+        width: 364px;
+        height: 299px;
+        border-radius: 16px;
+        background: rgba(255, 76, 30, 0.05);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+    
+    .second-box {
+        border-radius: 16px;
+        background: rgba(0, 76, 232, 0.05);
+    }
+    
+    .third-box {
+        border-radius: 16px;
+        background: rgba(255, 223, 0, 0.05);
+    }
+    
+    .my-target-learn-more {
+        text-decoration: underline;
+        color: rgb(13, 19, 33);
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .my-target-header {
+        color: rgb(13, 19, 33);
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    
+    .my-target-description {
+        color: rgb(13, 19, 33);
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    /* My Next Target Section  */
+    
+    .my-next-target {
+        background: rgba(13, 19, 33, 0.02);
+        margin: 30px 40px;
+        padding: 40px;
+    }
+    
+    .my-next-target-boxes {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .my-next-target-first-box {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 40px;
+        padding: 40px;
+        width: 1140px;
+        height: 250px;
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.15);
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+    }
+    
+    .my-next-target-first-box-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
