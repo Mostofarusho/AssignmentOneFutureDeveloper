@@ -344,3 +344,27 @@
             align-items: center;
             gap: 20px
         }
+        /* Footer Section  */
+        
+        .my-footer-section {
+            margin: 30px 40px;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 16px;
+            background: rgba(13, 19, 33, 0.03);
+        }
+        
+        .my-footer-section-credentials-header {
+            color: rgb(13, 19, 33);
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        
+        .my-footer-section-social-media-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
